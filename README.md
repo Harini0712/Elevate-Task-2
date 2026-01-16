@@ -25,3 +25,22 @@ This happened because:
 1. Pulled the remote repository history:
    ```bash
    git pull origin main --allow-unrelated-histories
+# Git Rollback Practice
+
+This repository is created to practice Git fundamentals.
+
+## What I practiced
+- Git initialization
+- Creating commits
+- Understanding commit history
+- Rollback using:
+  - git checkout
+  - git reset --soft
+  - git reset --hard
+
+## Key Learning
+- `git checkout` is used to view old versions safely
+- `git reset --soft` removes commits but keeps file changes
+- `git reset --hard` removes commits and file changes completely
+
+This practice helped me clearly understand how Git rollback works in real scenarios.
